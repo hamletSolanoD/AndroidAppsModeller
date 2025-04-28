@@ -47,7 +47,6 @@ import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import javax.xml.soap.Text;
 
 import org.w3c.dom.events.EventException;
 

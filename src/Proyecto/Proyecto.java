@@ -7,19 +7,15 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import javax.annotation.Resource;
-import javax.annotation.Resources;
-import javax.imageio.ImageIO;
+import  ValoresDefault.Constantes.Tipo_Proyecto;
 import javax.swing.ImageIcon;
 
 import Temario_Educativo.FichaInformacion;
-import Temario_Educativo.FichaInformativa_Basica;
-import Temario_Educativo.FichaIndiceInformativo;
 import Temario_Educativo.Temario_Educativo_ElegirColor;
 import Temario_Educativo.Temario_Educativo_MainScenesManager;
 import Temario_Educativo.Temario_Educativo_Portada;
-import ValoresDefault.Constantes;
-import ValoresDefault.Constantes.Tipo_Proyecto;
+
+
 
 public class Proyecto{
 

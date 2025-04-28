@@ -1,71 +1,33 @@
 package Temario_Educativo;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
-import javax.swing.border.EmptyBorder;
-
-import ValoresDefault.Constantes;
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-
-import java.awt.Component;
-import javax.swing.Box;
-import javax.swing.ImageIcon;
-import javax.swing.SwingConstants;
-import javax.swing.JButton;
-import javax.swing.JFileChooser;
-
-import java.awt.GridLayout;
-import java.awt.Image;
-
-import javax.swing.JTextField;
-import java.awt.GridBagLayout;
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.io.File;
-import java.io.IOException;
-import java.net.URI;
-import java.nio.file.FileSystem;
-import java.nio.file.LinkOption;
-import java.nio.file.Path;
-import java.nio.file.WatchKey;
-import java.nio.file.WatchService;
-import java.nio.file.WatchEvent.Kind;
-import java.nio.file.WatchEvent.Modifier;
-import java.nio.file.spi.FileTypeDetector;
-import java.util.Iterator;
-
-import com.jgoodies.forms.layout.FormLayout;
-import com.jgoodies.forms.layout.ColumnSpec;
-import com.jgoodies.forms.layout.RowSpec;
-
-
 import MySwingComponents.MyJTextPane;
 import Proyecto.Proyecto;
-
-import com.jgoodies.forms.layout.FormSpecs;
+import ValoresDefault.Constantes;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.GridLayout;
+import java.awt.Image;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.spi.FileTypeDetector;
+import javax.swing.Box;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
 import javax.swing.border.MatteBorder;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-import javax.swing.event.UndoableEditListener;
-import javax.swing.text.AttributeSet;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.Element;
-import javax.swing.text.Position;
-import javax.swing.text.Segment;
 import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.Style;
 import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
-
-import java.awt.Color;
-import javax.swing.JTextPane;
 
 public class Temario_Educativo_Portada extends JFrame implements ActionListener, DocumentListener {
 	private JTextField JTextField_TituloPortada;

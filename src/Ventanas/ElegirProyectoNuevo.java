@@ -1,41 +1,24 @@
 package Ventanas;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-
-import org.w3c.dom.events.EventException;
-
+import Proyecto.Proyecto;
 import ValoresDefault.Constantes;
 import ValoresDefault.Constantes.Tipo_Proyecto;
-
-import javax.swing.JLabel;
-import javax.swing.JOptionPane;
-
+import java.awt.BorderLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
-
-import javax.swing.ButtonGroup;
-import javax.swing.JButton;
-import java.awt.GridBagLayout;
-import java.awt.GridBagConstraints;
-import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.MessageFormat;
-
-import javax.swing.SwingConstants;
-import com.jgoodies.forms.factories.DefaultComponentFactory;
-
-import Proyecto.Proyecto;
-
+import javax.swing.ButtonGroup;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 import javax.swing.JTextPane;
-import javax.swing.JRadioButton;
-import javax.swing.JRadioButtonMenuItem;
+import javax.swing.SwingConstants;
+import org.w3c.dom.events.EventException;
 
 public class ElegirProyectoNuevo extends JFrame implements ActionListener {
 

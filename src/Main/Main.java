@@ -1,15 +1,9 @@
-package Main;
+package main;
 
+import Ventanas.ElegirProyectoNuevo;
 import java.awt.Color;
 import java.io.IOException;
-import java.util.UUID;
-
-import javax.annotation.Resource;
 import javax.imageio.ImageIO;
-import javax.swing.JButton;
-
-import Temario_Educativo.*;
-import Ventanas.*;
 
 public class Main {
 
@@ -27,12 +21,12 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		InicializarValoresDefault();
+		//InicializarValoresDefault();
 		//new LoginUser();
-   //new ElegirProyectoNuevo();
+   new ElegirProyectoNuevo();
     // new Temario_Educativo_ElegirColor();
  //   new  Temario_Educativo_Portada();
-    new Temario_Educativo_MainScenesManager();
+    //new Temario_Educativo_MainScenesManager();
 		
 	
 	}

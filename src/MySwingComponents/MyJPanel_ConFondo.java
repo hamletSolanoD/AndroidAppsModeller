@@ -1,15 +1,10 @@
 package MySwingComponents;
 
-import java.awt.BorderLayout;
+import ValoresDefault.Constantes;
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.LayoutManager;
-
 import javax.swing.JPanel;
-
-import org.omg.CORBA.Bounds;
-
-import ValoresDefault.Constantes;
 
 public class MyJPanel_ConFondo extends JPanel {
 	private Image imagen;

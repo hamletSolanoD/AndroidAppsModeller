@@ -31,7 +31,6 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.event.InternalFrameEvent;
 import javax.swing.event.InternalFrameListener;
-import javax.xml.soap.Text;
 
 import org.w3c.dom.events.EventException;
 

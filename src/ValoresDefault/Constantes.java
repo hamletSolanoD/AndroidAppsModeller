@@ -4,12 +4,8 @@ import java.awt.Font;
 import java.awt.Image;
 import java.awt.Toolkit;
 import java.io.IOException;
-import java.time.format.TextStyle;
 import java.util.UUID;
-
 import javax.imageio.ImageIO;
-import javax.swing.*;
-import javax.xml.soap.Text;
 
 public interface Constantes {
 public static  int PantallaOrdenadorX = Toolkit.getDefaultToolkit().getScreenSize().width;
